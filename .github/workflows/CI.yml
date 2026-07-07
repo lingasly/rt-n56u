@@ -26,8 +26,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7620"
-            targets: "PSG1218  MI-MINI"
+          - build_variant: "mt7621"
+            targets: "RM2100"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
